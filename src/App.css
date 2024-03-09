@@ -33,6 +33,23 @@
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
-  }
+    transform: rotate(0deg);
+
 }
+}
+
+.App-button {
+  background-color: #CB8B37;
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+ 
+ 
