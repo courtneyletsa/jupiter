@@ -13,7 +13,7 @@
   }
 }
 
-.App-header {
+.App-body {
   background-image: url("./assets/images/background.svg");
   background-position: center;
   background-size: cover;
@@ -54,5 +54,63 @@
   cursor: pointer;
   border-radius: 30px;
 }
+
+nav {
+  background-color: #3E4345;
+  overflow: hidden;
+ }
  
+ nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+ }
+ 
+ nav ul li {
+  float: left;
+ }
+ 
+ nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+ }
+ 
+ nav ul li a:hover {
+  background-color: #111;
+ }
+ 
+ .logo {
+  display: inline-block;
+  vertical-align: top;
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  margin-top: 15px; /* Adjust for vertical alignment */
+}
+
+nav button{
+  background-color: #CB8B37;
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.first-section {
+  background-color: #3E4345;
+  height: 600px; /* Adjust the height as needed */
+ }
+
+.hero {
+  
+}
  

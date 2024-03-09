@@ -4,12 +4,12 @@ import logo from '../logo.svg';
 export default function Splash() {
   return (
         <div className="App">
-        <header className="App-header">
+        <body className="App-body">
         <img src={logo} className="App-logo" alt="logo" />
         <button className='App-button'>
             Enter Gallery →
         </button>
-        </header>
+        </body>
     </div>
   )
 }
